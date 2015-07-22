@@ -1,0 +1,33 @@
+<?php
+$lang['locations_location_id'] = 'Localização ID';
+$lang['locations_name'] = 'Nome';
+$lang['locations_address'] = 'Endereço';
+$lang['locations_phone'] = 'Telefone';
+$lang['locations_fax'] = 'Fax';
+$lang['locations_email'] = 'Email';
+$lang['locations_new'] = 'Nova Localização';
+$lang['locations_update'] = 'Atualizar Localização';
+$lang['locations_delete'] = 'Deletar';
+$lang['locations_cleanup_old_locations'] = 'Limpar Localizações Antigas';
+$lang['locations_basic_information'] = 'Informação da Localização';
+$lang['locations_successful_adding'] = 'Você adicionou com sucesso localização';
+$lang['locations_successful_updating'] = 'Você atualizou com sucesso localização';
+$lang['locations_successful_deleted'] = 'Removido com sucesso';
+$lang['locations_error_adding_updating'] = 'Erro ao adicionar / atualizar localização';
+$lang['locatoins_name_required'] = 'Nome da Localização é obrigatório';
+$lang['locations_phone_required'] = 'Telefone é obrigatório';
+$lang['locations_phone_valid'] = 'Número de telefone deve ser válido';
+$lang['locations_confirm_delete'] = 'Tem certeza de que deseja excluir os locais selecionados?';
+$lang['locations_successful_deleted'] = 'Removido com sucesso';
+$lang['locations_one_or_multiple'] = 'localização(s)';
+$lang['locations_cannot_be_deleted'] = 'Não foi possível excluídos locais selecionados';
+$lang['locations_adding_location_requires_addtional_license'] = 'Adicionando outro local requer outra licença';
+$lang['locations_confirm_purchase'] = 'Você comprou uma licença adicional para este local?';
+$lang['locations_purchase_email'] = 'Adiquirir E-Mail';
+$lang['locations_invalid_email_or_dont_have_auth'] = 'Você digitou um e-mail inválido ou não tem as licenças necessárias para adicionar esta localização. Entre em contato com support@phppointofsale.com se você acredita que isso é um erro.';
+$lang['locations_purchase_additional_licenses'] = 'Adquirir licenças adicionais';
+$lang['locations_add_register'] = 'Adicionar Registrar';
+$lang['locations_registers'] = 'Registros';
+$lang['locations_register_name'] = 'Registrar Nome';
+$lang['locations_default'] = 'Padrão';
+?>

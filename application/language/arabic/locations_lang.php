@@ -1,0 +1,33 @@
+<?php
+$lang['locations_location_id'] = 'رقم الفرع';
+$lang['locations_name'] = 'اسم الفرع';
+$lang['locations_address'] = 'العنوان';
+$lang['locations_phone'] = 'رقم الهاتف';
+$lang['locations_fax'] = 'الفاكس';
+$lang['locations_email'] = 'البريد الالكتروني';
+$lang['locations_new'] = 'اضافة فرع';
+$lang['locations_update'] = 'تعديل فرع';
+$lang['locations_delete'] = 'حذف';
+$lang['locations_cleanup_old_locations'] = 'تنظيف الفروع القديمة';
+$lang['locations_basic_information'] = 'معلومات الفرع';
+$lang['locations_successful_adding'] = 'تم اضافة الفرع بنجاح';
+$lang['locations_successful_updating'] = 'تم تعديل الفرع بنجاح';
+$lang['locations_successful_deleted'] = 'تم الحذف بنجاح';
+$lang['locations_error_adding_updating'] = 'خطأ في إضافة / تحديث الفرع';
+$lang['locatoins_name_required'] = 'اسم الفرع حقل مطلوب';
+$lang['locations_phone_required'] = 'رقم الهاتف حقل مطلوب';
+$lang['locations_phone_valid'] = 'رقم الهاتف يجب ان يكون صحيح';
+$lang['locations_confirm_delete'] = 'هل أنت متأكد أنك تريد حذف الفروع المختارة?';
+$lang['locations_successful_deleted'] = 'تم الحذف بنجاح';
+$lang['locations_one_or_multiple'] = 'الفروع';
+$lang['locations_cannot_be_deleted'] = 'لا يمكن حذف الفروع المختارة';
+$lang['locations_adding_location_requires_addtional_license'] = 'اضافة فرع آخر يتطلب ترخيص آخر';
+$lang['locations_confirm_purchase'] = 'لقد قمت بشراء رخصة إضافية لهذا الفرع؟';
+$lang['locations_purchase_email'] = 'البريد الالكتروني للمشترك';
+$lang['locations_invalid_email_or_dont_have_auth'] = 'لقد قمت بإدخال بريد إلكتروني غير صالح أو لا تملك التراخيص اللازمة لإضافة هذا الفرع. يرجى الاتصال support@phppointofsale.com إذا كنت تعتقد أن هذا خطأ.';
+$lang['locations_purchase_additional_licenses'] = 'شراء تراخيص إضافية';
+$lang['locations_add_register'] = 'اضافة اشتراك';
+$lang['locations_registers'] = 'المشتركين';
+$lang['locations_register_name'] = 'اسم المشترك';
+$lang['locations_default'] = 'التلقائي';
+?>

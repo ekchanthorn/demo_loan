@@ -1,0 +1,33 @@
+<?php
+$lang['locations_location_id'] = 'Location ID';
+$lang['locations_name'] = 'Nome';
+$lang['locations_address'] = 'Indirizzo';
+$lang['locations_phone'] = 'Telefono';
+$lang['locations_fax'] = 'Fax';
+$lang['locations_email'] = 'Email';
+$lang['locations_new'] = 'Nuova posizione';
+$lang['locations_update'] = 'Update Location';
+$lang['locations_delete'] = 'Cancella';
+$lang['locations_cleanup_old_locations'] = 'Pulire Vecchio Locations';
+$lang['locations_basic_information'] = 'Informazioni sulla posizione';
+$lang['locations_successful_adding'] = 'Hai aggiunto l\'ubicazione';
+$lang['locations_successful_updating'] = 'Hai aggiornato correttamente il luogo';
+$lang['locations_successful_deleted'] = 'Hai eliminato';
+$lang['locations_error_adding_updating'] = 'Errore durante l\'aggiunta / aggiornamento posizione';
+$lang['locatoins_name_required'] = 'È necessaria Località Nome';
+$lang['locations_phone_required'] = 'È richiesto il numero di telefono';
+$lang['locations_phone_valid'] = 'Numero di telefono dovrebbe essere valido';
+$lang['locations_confirm_delete'] = 'Sei sicuro di voler cancellare le località selezionate?';
+$lang['locations_successful_deleted'] = 'Hai eliminato';
+$lang['locations_one_or_multiple'] = 'posizione (s)';
+$lang['locations_cannot_be_deleted'] = 'Impossibile cancellato località selezionate';
+$lang['locations_adding_location_requires_addtional_license'] = 'L\'aggiunta di un\'altra posizione richiede un\'altra licenza';
+$lang['locations_confirm_purchase'] = 'Hai acquistato una licenza aggiuntiva per questa posizione?';
+$lang['locations_purchase_email'] = 'Acquisto E-Mail';
+$lang['locations_invalid_email_or_dont_have_auth'] = 'Hai inserito un indirizzo email valido o non si hanno le licenze necessarie per aggiungere questa posizione. Si prega di contattare support@phppointofsale.com se credi che questo sia un errore.';
+$lang['locations_purchase_additional_licenses'] = 'Acquistare ulteriori licenze';
+$lang['locations_add_register'] = 'Aggiungi Register';
+$lang['locations_registers'] = 'Registri';
+$lang['locations_register_name'] = 'Registrati Nome';
+$lang['locations_default'] = 'Difetto';
+?>
