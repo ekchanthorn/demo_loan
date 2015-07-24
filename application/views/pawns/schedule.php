@@ -83,7 +83,7 @@
                         <th><?php echo lang('pawns_pay_date');?></th>
                         <th><?php echo lang('pawns_number_of_day');?></th>
                         <th><?php echo lang('pawns_principle');?></th>
-                        <th><?php echo lang('pawns_rate');?></th>
+                        <th><?php echo lang('pawns_rate_no_percent');?></th>
                         <th><?php echo lang('pawns_total');?></th>
                         <th colspan="2"><?php echo lang('pawns_late');?></th>
                         <th><?php echo lang('pawns_fine');?></th>
@@ -214,11 +214,11 @@
                <center><img src="<?php echo $this->Appconfig->get_logo_image();?>" width="100"/></center>
           <div id="background"><?php echo $notify;?></div>
            <center><i><?php echo $location->address;?><br/><?php echo $location->phone;?>, <?php echo $location->email;?></i></center><br/><hr style="border:1px dashed #ddd;"/>
-           <center><h2><u><?php echo lang("pawns_schedule"); ?></u></h2></center>
+           <center><u><?php echo lang("pawns_schedule"); ?></u></center>
            <div class="row">
                <div class="col-md-5" style="line-height:30px;"><?php echo lang('pawns_fullname');?>: <b><?php echo $pawn_info->first_name.' '.$pawn_info->last_name;?></b></div>
                 <div class="col-md-5" style="line-height:30px;"><?php echo lang('pawns_amount');?>: <b><?php echo $pawn_info->currency=='usd'?to_currency($pawn_info->amount):  to_riel_currency($pawn_info->amount);?></b></div>
-                <div class="col-md-5" style="line-height:30px;"><?php echo lang('pawns_rate');?>: <b><?php echo $pawn_info->rate;?></b>%</div>
+                <div class="col-md-5" style="line-height:30px;"><?php echo lang('pawns_rate_no_percent');?>: <b><?php echo $pawn_info->rate;?></b>%</div>
                 <div class="col-md-5" style="line-height:30px;"><?php echo lang('pawns_duration');?>: <b> <?php echo $duration_msg;?></b> </div>
                 <div class="col-md-5" style="line-height:30px;"><?php echo lang('pawns_from');?>: <b><?php echo lang('common_'.date('D',strtotime($pawn_info->start_date))).', '.date('d',strtotime($pawn_info->start_date)).'-'.lang('common_'.date('M',strtotime($pawn_info->start_date))).'-'.date('Y',strtotime($pawn_info->start_date));?></b></div>
                 <div class="col-md-5" style="line-height:30px;"><?php echo lang('pawns_to');?>: <b><?php echo lang('common_'.date('D',strtotime($pawn_info->end_date))).', '.date('d',strtotime($pawn_info->end_date)).'-'.lang('common_'.date('M',strtotime($pawn_info->end_date))).'-'.date('Y',strtotime($pawn_info->end_date));?></b></div>
@@ -506,7 +506,7 @@
         var mywindow = window.open('', 'new div', 'height=400,width=800');
         mywindow.document.write('<html><head><title></title>');
         mywindow.document.write('<link rel="stylesheet" href="<?php echo base_url();?>css/font-awesome.min.css" type="text/css" media="print"/>');
-        mywindow.document.write('<style>*{font-size:12px;} .col-md-4{width: 30%; display:inline; float:left; padding-left:10%;} .col-md-5{width: 40%; display:inline; float:left; padding-left:10%;} th,b,h2{color:blue;} table{width:100%;} table{border-bottom:1px solid #000!important;border-right:1px solid #000!important;} th{border-top:1px solid #000!important;border-left:1px solid #000!important; padding:5px;} td{border-top:1px solid #000!important;border-left:1px solid #000!important; padding:5px; text-align:right;} body{overflow:hidden;} #background{position:fixed;top:0;left:0;width:95%;height:95%;overflow:hidden;z-index:-1; color:red !important;}</style>');
+        mywindow.document.write('<style> u{font-size:18px;} .col-md-5,.col-md-4,td,th,i{font-size:12px;} .col-md-4{width: 30%; display:inline; float:left; padding-left:10%;} .col-md-5{width: 40%; display:inline; float:left; padding-left:10%;} th,b,u{color:blue;} table{width:100%;} table{border-bottom:1px solid #000!important;border-right:1px solid #000!important;} th{border-top:1px solid #000!important;border-left:1px solid #000!important; padding:5px;} td{border-top:1px solid #000!important;border-left:1px solid #000!important; padding:5px; text-align:right;} body{overflow:hidden;} #background{position:fixed;top:0;left:0;width:95%;height:95%;overflow:hidden;z-index:-1; color:red !important;}</style>');
         mywindow.document.write('</head>');
         mywindow.document.write(data);
         mywindow.document.write('</body></html>');

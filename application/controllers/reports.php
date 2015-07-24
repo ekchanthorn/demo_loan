@@ -2930,7 +2930,7 @@ class Reports extends Secure_area
 			$summary_data_row[] = array('data'=>to_currency($row['paid_princ']), 'align'=>'left');
 			$summary_data_row[] = array('data'=>to_currency($row['amount_due']), 'align'=>'left');
 			$summary_data_row[] = array('data'=>to_currency($row['deposit']), 'align'=>'left');
-			$summary_data_row[] = array('data'=>to_currency($row['subtotal']), 'align'=>'right');
+			//$summary_data_row[] = array('data'=>to_currency($row['subtotal']), 'align'=>'right');
 			$summary_data_row[] = array('data'=>to_currency($row['rate']), 'align'=>'right');
 			$summary_data_row[] = array('data'=>to_currency($row['paid_rate']), 'align'=>'right');
 			
@@ -3125,7 +3125,7 @@ class Reports extends Secure_area
 			$summary_data_row[] = array('data'=>to_currency($row['paid_princ']), 'align'=>'left');
 			$summary_data_row[] = array('data'=>to_currency($row['amount_due']), 'align'=>'left');
 			//$summary_data_row[] = array('data'=>to_currency($row['deposit']), 'align'=>'left');
-			$summary_data_row[] = array('data'=>to_currency($row['subtotal']), 'align'=>'right');
+			//$summary_data_row[] = array('data'=>to_currency($row['subtotal']), 'align'=>'right');
 			$summary_data_row[] = array('data'=>to_currency($row['rate']), 'align'=>'right');
 			$summary_data_row[] = array('data'=>to_currency($row['paid_rate']), 'align'=>'right');
 			
@@ -3142,7 +3142,7 @@ class Reports extends Secure_area
 				$details_data_row = array();
 				
 				$details_data_row[] = array('data'=>$j,'align'=>'left');
-				$details_data_row[] = array('data'=>date(get_date_format(), strtotime($drow['borrow_date'])), 'align'=>'left');
+				$details_data_row[] = array('data'=>date(get_date_format(), strtotime($drow['start_date'])), 'align'=>'left');
 				$details_data_row[] = array('data'=>to_currency($drow['amount']), 'align'=>'right');
                                	$details_data_row[]  = array('data'=>to_currency($drow['paid_princ']), 'align'=>'right');
                                 $details_data_row[]  = array('data'=>to_currency($drow['amount_due']), 'align'=>'right');

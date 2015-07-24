@@ -18,8 +18,8 @@ class Detailed_loans extends Report
 		$return['summary'][] = array('data'=>lang('loans_pay_amount'), 'align'=> 'right');
 		$return['summary'][] = array('data'=>lang('loans_amount_due'), 'align'=> 'right');
 		$return['summary'][] = array('data'=>lang('loans_deposit'), 'align'=> 'right');
-		$return['summary'][] = array('data'=>lang('loans_rate'), 'align'=> 'right');
-		$return['summary'][] = array('data'=>lang('loans_pay_rate'), 'align'=> 'right');
+		$return['summary'][] = array('data'=>lang('loans_rate_no_percent'), 'align'=> 'right');
+		//$return['summary'][] = array('data'=>lang('loans_pay_rate'), 'align'=> 'right');
 		$return['summary'][] = array('data'=>lang('loans_pay_rate'), 'align'=> 'right');
 				
 		if($this->Employee->has_module_action_permission('reports','show_profit',$this->Employee->get_logged_in_employee_info()->person_id))
@@ -34,7 +34,7 @@ class Detailed_loans extends Report
 		$return['details'][] = array('data'=>lang('loans_pay_amount'), 'align'=> 'right');
 		$return['details'][] = array('data'=>lang('loans_amount_due'), 'align'=> 'right');
 		$return['details'][] = array('data'=>lang('loans_deposit'), 'align'=> 'right');
-		$return['details'][] = array('data'=>lang('loans_rate'), 'align'=> 'right');
+		$return['details'][] = array('data'=>lang('loans_rate_no_percent'), 'align'=> 'right');
 		$return['details'][] = array('data'=>lang('loans_pay_rate'), 'align'=> 'right');
 		$return['details'][] = array('data'=>lang('loans_number_of_day_late'), 'align'=> 'right');
 		$return['details'][] = array('data'=>lang('loans_fine'), 'align'=> 'right');

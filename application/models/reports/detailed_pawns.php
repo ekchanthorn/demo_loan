@@ -18,8 +18,8 @@ class Detailed_pawns extends Report
 		$return['summary'][] = array('data'=>lang('pawns_pay_amount'), 'align'=> 'right');
 		$return['summary'][] = array('data'=>lang('pawns_amount_due'), 'align'=> 'right');
 		//$return['summary'][] = array('data'=>lang('pawns_deposit'), 'align'=> 'right');
-		$return['summary'][] = array('data'=>lang('pawns_rate'), 'align'=> 'right');
-		$return['summary'][] = array('data'=>lang('pawns_pay_rate'), 'align'=> 'right');
+		$return['summary'][] = array('data'=>lang('pawns_rate_no_percent'), 'align'=> 'right');
+		//$return['summary'][] = array('data'=>lang('pawns_pay_rate'), 'align'=> 'right');
 		$return['summary'][] = array('data'=>lang('pawns_pay_rate'), 'align'=> 'right');
 				
 		if($this->Employee->has_module_action_permission('reports','show_profit',$this->Employee->get_logged_in_employee_info()->person_id))

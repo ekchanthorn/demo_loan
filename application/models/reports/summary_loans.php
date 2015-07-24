@@ -17,7 +17,7 @@ class Summary_loans extends Report {
         $columns[] = array('data'  => lang('loans_pay_amount'), 'align' => 'right');
         $columns[] = array('data'  => lang('loans_amount_due'), 'align' => 'right');
         $columns[] = array('data'  => lang('loans_deposit'), 'align' => 'right');
-        $columns[] = array('data'  => lang('loans_rate'), 'align' => 'right');
+        $columns[] = array('data'  => lang('loans_rate_no_percent'), 'align' => 'right');
         $columns[] = array('data'  => lang('loans_pay_rate'), 'align' => 'right');
         $columns[] = array('data'  => lang('loans_number_of_day_late'), 'align' => 'right');
         $columns[] = array('data'  => lang('loans_fine'), 'align' => 'right');

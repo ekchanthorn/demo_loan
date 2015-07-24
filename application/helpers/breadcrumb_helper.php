@@ -188,6 +188,34 @@ function create_breadcrumb()
 		{
 			$return.=create_current_page_url(lang('suppliers_import_suppliers_from_excel'));
 		}
+	}elseif($ci->uri->segment(1) == 'expenses')
+	{
+		if ($ci->uri->segment(2) == false) //Main page
+		{
+			$suppliers_home_link =create_current_page_url(lang('module_expenses'));
+		}
+		else
+		{
+			$suppliers_home_link = '<a href="'.site_url('expenses').'">'.lang('module_expenses').'</a>';
+		}
+				
+		$return.=$suppliers_home_link;
+		
+		if($ci->uri->segment(2) == 'view')
+		{
+			if ($ci->uri->segment(3) == -1)
+			{
+  				$return.=create_current_page_url(lang('expenses_new'));
+			}
+			else
+			{
+  				$return.=create_current_page_url(lang('expenses_update'));
+			}
+		}
+		elseif($ci->uri->segment(2) == 'excel_import')
+		{
+			$return.=create_current_page_url(lang('suppliers_import_suppliers_from_excel'));
+		}
 	}
 	elseif($ci->uri->segment(1) == 'reports')
 	{

@@ -12,6 +12,7 @@ $lang['pawns_fullname']='ឈ្មោះពេញរបស់អតិថិជ�
 $lang['pawns_amount']='ចំនួនទឹកប្រាក់ដើម';
 $lang['pawns_deposit']='ប្រាក់តម្កល់';
 $lang['pawns_rate']='ការប្រាក់ (%)';
+$lang['pawns_rate_no_percent']='ការប្រាក់';
 $lang['pawns_duration']='រយៈពេលនៃការបញ្ចាំ';
 $lang['pawns_borrow_date']='កាលបរិច្ឆេទនៃការបញ្ចាំ';
 $lang['pawns_from']='ចាប់ពី';

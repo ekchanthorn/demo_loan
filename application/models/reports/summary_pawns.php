@@ -17,7 +17,7 @@ class Summary_pawns extends Report {
         $columns[] = array('data'  => lang('pawns_pay_amount'), 'align' => 'right');
         $columns[] = array('data'  => lang('pawns_amount_due'), 'align' => 'right');
         //$columns[] = array('data'  => lang('pawns_deposit'), 'align' => 'right');
-        $columns[] = array('data'  => lang('pawns_rate'), 'align' => 'right');
+        $columns[] = array('data'  => lang('pawns_rate_no_percent'), 'align' => 'right');
         $columns[] = array('data'  => lang('pawns_pay_rate'), 'align' => 'right');
         $columns[] = array('data'  => lang('pawns_number_of_day_late'), 'align' => 'right');
         $columns[] = array('data'  => lang('pawns_fine'), 'align' => 'right');

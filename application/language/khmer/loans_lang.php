@@ -12,6 +12,7 @@ $lang['loans_fullname']='ឈ្មោះពេញរបស់អតិថិជ�
 $lang['loans_amount']='ចំនួនទឹកប្រាក់ដើម';
 $lang['loans_deposit']='ប្រាក់តម្កល់';
 $lang['loans_rate']='ការប្រាក់ (%)';
+$lang['loans_rate_no_percent']='ការប្រាក់';
 $lang['loans_duration']='រយៈពេលនៃការខ្ចី';
 $lang['loans_borrow_date']='កាលបរិច្ឆេទនៃការខ្ចី';
 $lang['loans_from']='ចាប់ពី';
